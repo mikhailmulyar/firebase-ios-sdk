@@ -1386,7 +1386,7 @@ static const size_t SRFrameHeaderOverhead = 32;
     } else if ([data isKindOfClass:[NSString class]]) {
         unmasked_payload =  (const uint8_t *)[data UTF8String];
     } else {
-        assert(NO);
+//        assert(NO);
     }
 
     if (payloadLength < 126) {
